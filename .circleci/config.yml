@@ -11,7 +11,7 @@ commands:
     parameters:
       message:
         type: string
-        default: "hello world"
+        default: "hello world from keep coding"
     steps:
       - run: echo << parameters.message >>
 
